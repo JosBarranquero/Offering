@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txvNewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/edtNewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txvNewName"
+        android:layout_alignBottom="@+id/txvNewName"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/txvNewName"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txvNewShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/txvNewName"
+
+        android:layout_marginStart="20dp"
+        android:text="@string/shop"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/edtNewShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txvNewShop"
+        android:layout_alignBottom="@+id/txvNewShop"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/txvNewShop"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txvNewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/txvNewShop"
+
+        android:layout_marginStart="20dp"
+        android:text="@string/date"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/edtNewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txvNewDate"
+        android:layout_alignBottom="@+id/txvNewDate"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/txvNewDate"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txvNewType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/txvNewDate"
+
+        android:layout_marginStart="20dp"
+        android:text="@string/type"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/txvNewImportance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/txvNewType"
+
+        android:layout_marginStart="20dp"
+        android:text="@string/importance"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txvNewImportance"
+        android:layout_toEndOf="@+id/txvNewImportance"
+        android:layout_marginStart="7dp"
+        android:id="@+id/spnNewImportance"
+        android:entries="@array/importance"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnNewType"
+        android:layout_alignTop="@+id/txvNewType"
+        android:layout_alignStart="@+id/spnNewImportance"
+        android:entries="@array/types" />
+
+    <Button
+        android:text="@string/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spnNewImportance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnAdd"
+        android:background="@drawable/shape_button"/>
+</RelativeLayout>

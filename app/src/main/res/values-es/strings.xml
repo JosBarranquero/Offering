@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adidas">Tienda Adidas</string>
+    <string name="bike">Bici paseo</string>
+    <string name="computer">Ordenador BeBox</string>
+    <string name="dishes">Vajilla</string>
+    <string name="laptop">Portátil HP</string>
+    <string name="mirror">Espejo redondo</string>
+    <string name="settings">Configuración Offering</string>
+    <string name="show_electro">Mostrar ofertas de electrónica</string>
+    <string name="show_home">Mostrar ofertas de hogar</string>
+    <string name="show_import">Mostrar importancia de ofertas</string>
+    <string name="show_sport">Mostrar ofertas de deporte</string>
+    <string name="sofa">Sofá</string>
+    <string name="tracksuit">Chándal Adidas</string>
+    <string name="must_select">Debe seleccionar al menos una oferta</string>
+    <string name="get_info">Información App</string>
+    <string name="order_asc">Ordenar por nombre ascendentemente</string>
+    <string name="order_desc">Ordenar por nombre descendentemente</string>
+    <string name="order_type">Ordenar por tipo de oferta</string>
+    <string name="add">Añadir</string>
+    <string name="date">Fecha</string>
+    <string name="electro">Electrónica</string>
+    <string name="home">Hogar</string>
+    <string name="importance">Importancia</string>
+    <string name="important">Importante</string>
+    <string name="info">Aplicación desarrollada por José Antonio Barranquero Fernández</string>
+    <string name="name">Nombre</string>
+    <string name="not_important">No importante</string>
+    <string name="very_important">Muy importante</string>
+    <string name="type">Tipo</string>
+    <string name="sport">Deporte</string>
+    <string name="shop">Tienda</string>
+    <string name="must_input">Debe rellenar los campos</string>
+    <string name="error">No se ha podido añadir la oferta</string>
+</resources>

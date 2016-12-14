@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="types">
+        <item name="home">@string/home</item>
+        <item name="electro">@string/electro</item>
+        <item name="sport">@string/sport</item>
+    </string-array>
+
+    <string-array name="importance">
+        <item name="very">@string/very_important</item>
+        <item name="regular">@string/important</item>
+        <item name="none">@string/not_important</item>
+    </string-array>
+</resources>
